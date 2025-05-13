@@ -1,0 +1,27 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+
+/* Box style */
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: steelblue;
+  margin: 20px auto;
+  transition: transform 0.5s ease;
+}
+
+/* Animation class */
+.animate {
+  transform: rotate(360deg) scale(1.5);
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
